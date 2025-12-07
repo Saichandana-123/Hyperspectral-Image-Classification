@@ -19,8 +19,8 @@ Height × Width × Bands
 ---
 
 ##  Objective
+
 The objective of this project is to build a **baseline classification pipeline using spectral signatures**, enhance its efficiency and accuracy through **dimensionality reduction with PCA**, further improve performance by **integrating spatial context for spectral–spatial fusion**, and finally **evaluate all enhancements using standard classification metrics** to demonstrate the overall improvement of the system.
----
 
 ## 🛰️ Dataset
 **Indian Pines Hyperspectral Dataset**  
