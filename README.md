@@ -18,28 +18,18 @@ Height × Width × Bands
 
 ---
 
-## 🎯 Objective
-
-✔ Build a **baseline** classification pipeline using spectral signatures  
-✔ Improve efficiency and accuracy using dimensionality reduction (PCA)  
-✔ Integrate **spatial context** for spectral–spatial fusion  
-✔ Evaluate enhancements using standard classification metrics  
-
+##  Objective
+The objective of this project is to build a **baseline classification pipeline using spectral signatures**, enhance its efficiency and accuracy through **dimensionality reduction with PCA**, further improve performance by **integrating spatial context for spectral–spatial fusion**, and finally **evaluate all enhancements using standard classification metrics** to demonstrate the overall improvement of the system.
 ---
 
 ## 🛰️ Dataset
-
 **Indian Pines Hyperspectral Dataset**  
 Size: `(145 × 145 × 220)` spectral cube  
 Classes: **16 land-cover categories** (agriculture + vegetation)  
 Labels provided as **ground truth class map**
 
-Dataset Source: Publicly available hyperspectral benchmark
-
-Ground Truth Meaning:
-- Each pixel labeled with class ID (1–16)
-- `0` generally indicates background/unlabeled region
-
+Dataset source (Kaggle):  
+🔗 https://www.kaggle.com/datasets/abhijeetgo/indian-pines-hyperspectral-dataset
 ---
 
 ## 🧠 Techniques Used
@@ -60,10 +50,7 @@ Ground Truth Meaning:
 ✔ Baseline classification vs improved model  
 ✔ Accuracy and computation time comparison  
 ✔ Spectral feature visualization  
-✔ Confusion matrix for class performance  
-
-(Plots and result tables will be added here as work progresses)
-
+✔ Confusion matrix for class performance 
 ---
 
 ## 📁 Repository Structure
@@ -86,7 +73,6 @@ Hyperspectral-Classification/
 └── README.md # Project documentation
 
 ---
-
 ## 🧰 Tech Stack
 
 - Python  
@@ -95,31 +81,19 @@ Hyperspectral-Classification/
 - scikit-image / OpenCV  
 - Matplotlib  
 - Git + GitHub  
-
 ---
-
 ## 🌟 Future Work
-
 - Apply CNN for spectral–spatial deep learning
 - Extend to medical hyperspectral datasets when available
 - Real-time hyperspectral segmentation
-
 ---
 
 ## ✨ Author
-
-**Your Name**  
-Aspiring researcher in AI-based imaging systems  
-Focused on hyperspectral analysis for healthcare & scientific exploration
-
+**Saichandana** 
 ---
 
 ## 📌 Acknowledgements
-
 Indian Pines dataset originally captured by **AVIRIS sensor**  
 Used widely in hyperspectral image classification research
-
 ---
-
 > Better imaging → Earlier detection → Healthier future.
-
