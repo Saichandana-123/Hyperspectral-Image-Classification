@@ -52,29 +52,31 @@ Dataset source (Kaggle):
 - Confusion matrix for class performance 
 
 ## 📁 Repository Structure
-📁 Hyperspectral-Classification
+```text
+Hyperspectral-Classification
+├── data
+│   ├── Indian_pines.npy
+│   └── Indian_pines_GT.npy
 │
-├── data/
-│ ├── Indian_pines.npy
-│ ├── Indian_pines_GT.npy
+├── notebooks
+│   ├── 01_preprocessing_visualization.ipynb
+│   ├── 02_baseline_classification.ipynb
+│   └── 03_spectral_spatial_fusion.ipynb
 │
-├── notebooks/
-│ ├── 01_preprocessing_visualization.ipynb
-│ ├── 02_baseline_classification.ipynb
-│ ├── 03_spectral_spatial_fusion.ipynb
+├── src
+│   └── utils.py
 │
-├── src/
-│ ├── utils.py
+├── results
+│   ├── accuracy_comparison.png
+│   ├── classification_map.png
+│   └── spectral_signature_plots.png
 │
-├── results/
-│ ├── accuracy_comparison.png
-│ ├── classification_map.png
-│ ├── spectral_signature_plots.png
-│
-├── report/
-│ ├── Hyperspectral_Analysis_Report.pdf
+├── report
+│   └── Hyperspectral_Analysis_Report.pdf
 │
 └── README.md
+
+
 ---
 
 ## 🧰 Tech Stack
