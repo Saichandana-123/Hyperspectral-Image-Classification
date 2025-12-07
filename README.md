@@ -92,10 +92,8 @@ Hyperspectral-Classification
 
 ##  Author
 **Saichandana** 
----
 
 ##  Acknowledgements
 Indian Pines dataset originally captured by **AVIRIS sensor**  
 Used widely in hyperspectral image classification research
----
 > Better imaging → Earlier detection → Healthier future.
