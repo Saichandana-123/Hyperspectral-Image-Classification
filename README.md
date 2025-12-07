@@ -46,12 +46,10 @@ Dataset source (Kaggle):
 ---
 
 ## 📊 Results (To Be Updated)
-
-✔ Baseline classification vs improved model  
-✔ Accuracy and computation time comparison  
-✔ Spectral feature visualization  
-✔ Confusion matrix for class performance 
----
+- Baseline classification vs improved model  
+- Accuracy and computation time comparison  
+- Spectral feature visualization  
+- Confusion matrix for class performance 
 
 ## 📁 Repository Structure
 Hyperspectral-Classification/
