@@ -75,12 +75,8 @@ Hyperspectral-Classification
 │   └── Hyperspectral_Analysis_Report.pdf
 │
 └── README.md
-
-
----
-
-## 🧰 Tech Stack
-
+```
+## Techstack
 - Python  
 - NumPy, Pandas  
 - scikit-learn  
@@ -88,17 +84,17 @@ Hyperspectral-Classification
 - Matplotlib  
 - Git + GitHub  
 ---
-## 🌟 Future Work
+##  Future Work
 - Apply CNN for spectral–spatial deep learning
 - Extend to medical hyperspectral datasets when available
 - Real-time hyperspectral segmentation
 ---
 
-## ✨ Author
+##  Author
 **Saichandana** 
 ---
 
-## 📌 Acknowledgements
+##  Acknowledgements
 Indian Pines dataset originally captured by **AVIRIS sensor**  
 Used widely in hyperspectral image classification research
 ---
