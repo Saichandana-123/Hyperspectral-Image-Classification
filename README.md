@@ -54,7 +54,7 @@ Dataset source (Kaggle):
 ## 📁 Repository Structure
 ```text
 Hyperspectral-Classification
-├── data
+├── Data
 │   ├── Indian_pines.npy
 │   └── Indian_pines_GT.npy
 │
