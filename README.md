@@ -55,8 +55,8 @@ Dataset source (Kaggle):
 ```text
 Hyperspectral-Classification
 ├── Data
-│   ├── Indian_pines.npy
-│   └── Indian_pines_GT.npy
+│   ├── IPgt.npy
+│   └── indianpinearray.npy
 │
 ├── notebooks
 │   ├── 01_preprocessing_visualization.ipynb
