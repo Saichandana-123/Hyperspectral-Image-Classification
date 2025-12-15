@@ -61,13 +61,11 @@ Hyperspectral-Classification
 ├── notebooks
 │   └── Hyperspectral_Image_Classification_Spectral_Spatial.ipynb
 │
-├── src
-│   └── utils.py
-│
 ├── results
 │   ├── accuracy_comparison.png
 │   ├── classification_map.png
-│   └── spectral_signature_plots.png
+│   ├── spectral_signature_plots.png
+│   └── gt_vs_prediction.png
 │
 ├── report
 │   └── Hyperspectral_Analysis_Report.pdf
