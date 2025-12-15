@@ -59,7 +59,7 @@ Hyperspectral-Classification
 │   └── indianpinearray.npy
 │
 ├── notebooks
-│   ├── Hyperspectral_Image_Classification_Spectral_Spatial.ipynb
+│   └── Hyperspectral_Image_Classification_Spectral_Spatial.ipynb
 │
 ├── src
 │   └── utils.py
