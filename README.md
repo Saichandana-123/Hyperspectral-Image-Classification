@@ -45,11 +45,51 @@ Dataset source (Kaggle):
 
 ---
 
-## 📊 Results (To Be Updated)
-- Baseline classification vs improved model  
-- Accuracy and computation time comparison  
-- Spectral feature visualization  
-- Confusion matrix for class performance 
+## 📊 Results
+
+This project evaluates hyperspectral image classification using spectral-only and spectral–spatial machine learning approaches on the Indian Pines dataset.
+
+### 🔹 Spectral Signature Analysis
+- Visualized 200-band spectral signatures for representative land-cover classes
+- Demonstrated clear wavelength-dependent differences between visually similar crops (e.g., corn vs soybean)
+- Highlighted the advantage of hyperspectral data over RGB imagery for material discrimination
+
+### 🔹 Baseline Spectral Classification (PCA + SVM)
+- Dimensionality reduced from 200 bands to 30 principal components (≈98.6% variance retained)
+- Achieved:
+  - **Balanced Accuracy:** 84.2%
+  - **Macro F1-score:** 0.776
+- Strong performance for classes with distinct spectral signatures (Woods, Wheat, Hay-windrowed)
+- Moderate confusion among spectrally similar crop types (corn and soybean variants)
+
+### 🔹 KNN Baseline Comparison
+- Evaluated K-Nearest Neighbors as a reference baseline
+- Achieved:
+  - **Balanced Accuracy:** 68.6%
+  - **Macro F1-score:** 0.714
+- Observed higher sensitivity to noise and class imbalance compared to SVM
+
+### 🔹 Spectral–Spatial Feature Fusion (Proposed Method)
+- Augmented each pixel’s spectral vector with a 3×3 neighborhood mean spectrum
+- Resulting feature dimension: 400 → reduced to 30 via PCA
+- Achieved:
+  - **Balanced Accuracy:** 89.3%
+  - **Macro F1-score:** 0.832
+- Significant improvement for spectrally overlapping classes (corn and soybean variants)
+- Reduced pixel-level noise and improved spatial coherence in predictions
+
+### 🔹 Classification Map Visualization
+- Generated full-scene classification map using the spectral–spatial SVM model
+- Predictions show smooth, field-level regions with sharp class boundaries
+- Visual comparison with ground truth confirms strong spatial alignment
+
+### 🔹 Class-wise Performance Analysis
+- Per-class precision, recall, and F1-scores computed using classification reports
+- Minority classes benefited from class-weighted learning and spatial context
+- Remaining errors primarily occur among highly similar crop categories
+
+Overall, the results demonstrate that incorporating spatial context significantly enhances hyperspectral image classification performance and robustness in real-world, imbalanced datasets.
+
 
 ## 📁 Repository Structure
 ```text
