@@ -101,7 +101,7 @@ Hyperspectral-Classification
 ├── Notebooks
 │   └── Hyperspectral_Image_Classification_Spectral_Spatial.ipynb
 │
-├── Results
+├── results
 │   ├── accuracy_comparison.png
 │   ├── classification_map.png
 │   ├── spectral_signature_plots.png
