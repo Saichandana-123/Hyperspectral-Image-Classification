@@ -98,16 +98,16 @@ Hyperspectral-Classification
 │   ├── IPgt.npy
 │   └── indianpinearray.npy
 │
-├── notebooks
+├── Notebooks
 │   └── Hyperspectral_Image_Classification_Spectral_Spatial.ipynb
 │
-├── results
+├── Results
 │   ├── accuracy_comparison.png
 │   ├── classification_map.png
 │   ├── spectral_signature_plots.png
 │   └── gt_vs_prediction.png
 │
-├── report
+├── Report
 │   └── Hyperspectral_Analysis_Report.pdf
 │
 └── README.md
